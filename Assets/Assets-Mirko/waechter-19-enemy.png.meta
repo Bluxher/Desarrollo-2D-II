@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: edc6264e4817cf946ab3cd3754eaf172
+guid: fade27dbffc60424ca1b0d23e415a91b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5585497833349790189
-    second: _up idle_0
-  - first:
-      213: -6498614540196622392
-    second: _up idle_1
-  - first:
-      213: 1608508658789484469
-    second: _up idle_2
-  - first:
-      213: -4162020200944976634
-    second: _up idle_3
-  - first:
-      213: 220666920469744789
-    second: _up idle_4
+      213: -6956785984311817536
+    second: waechter-19-enemy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: _up idle_0
+      name: waechter-19-enemy_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 77
-        width: 16
-        height: 35
+        x: 2
+        y: 3
+        width: 160
+        height: 172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,96 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de9378aafaca38d40800000000000000
-      internalID: 5585497833349790189
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _up idle_1
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 77
-        width: 16
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8cf446fb18840d5a0800000000000000
-      internalID: -6498614540196622392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _up idle_2
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 77
-        width: 16
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b789495a12925610800000000000000
-      internalID: 1608508658789484469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _up idle_3
-      rect:
-        serializedVersion: 2
-        x: 216
-        y: 77
-        width: 16
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60dbca6bda88d36c0800000000000000
-      internalID: -4162020200944976634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _up idle_4
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 13
-        width: 16
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 59c47402567ff0300800000000000000
-      internalID: 220666920469744789
+      spriteID: 0ca8da28108847f90800000000000000
+      internalID: -6956785984311817536
       vertices: []
       indices: 
       edges: []
@@ -247,12 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      _up idle_0: 5585497833349790189
-      _up idle_1: -6498614540196622392
-      _up idle_2: 1608508658789484469
-      _up idle_3: -4162020200944976634
-      _up idle_4: 220666920469744789
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
