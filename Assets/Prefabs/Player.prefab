@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 5350938590213981471}
   - component: {fileID: 1506930448025114701}
   - component: {fileID: 7947852804350597386}
+  - component: {fileID: 6442326629651601201}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,7 +153,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &7947852804350597386
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -190,3 +191,24 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2.25}
   m_Direction: 0
+--- !u!114 &6442326629651601201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4338076429368751728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cf1ae711f5280747bf60d3c05aea3cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vidaSprites:
+  - {fileID: -2510476293373519475, guid: 53306ff4415915849ac13ed8c74d03c0, type: 3}
+  - {fileID: 4847817712686481240, guid: 53306ff4415915849ac13ed8c74d03c0, type: 3}
+  - {fileID: -1231491972741519832, guid: 53306ff4415915849ac13ed8c74d03c0, type: 3}
+  - {fileID: 345722018515597643, guid: 53306ff4415915849ac13ed8c74d03c0, type: 3}
+  - {fileID: -6885317976367823182, guid: 53306ff4415915849ac13ed8c74d03c0, type: 3}
+  - {fileID: -5077692325325300399, guid: 53306ff4415915849ac13ed8c74d03c0, type: 3}
+  vidaImage: {fileID: 0}
+  vidaMaxima: 6
