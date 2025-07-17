@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 838475787438724840}
   - component: {fileID: 8929249712545340355}
   - component: {fileID: 8562428656566548763}
-  - component: {fileID: 8828227379668709015}
   - component: {fileID: 5289409573860521773}
+  - component: {fileID: 8586730949453179405}
   m_Layer: 0
   m_Name: Vampire_NPC
   m_TagString: Untagged
@@ -151,25 +151,6 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0328691, y: 0}
   m_Size: {x: 0.8984475, y: 1.9375}
   m_Direction: 0
---- !u!114 &8828227379668709015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5824367227870697836}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5291748ceb983ff459a716a6db9d18fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  keyPromptUI: {fileID: 0}
-  dialoguePanel: {fileID: 0}
-  dialogueTextUI: {fileID: 0}
-  dialogueLines:
-  - Hola, Aventurero!!!
-  - Es una rareza ver foraneos, por estas tierras.
-  - Como haz terminado en este lugar?
 --- !u!50 &5289409573860521773
 Rigidbody2D:
   serializedVersion: 5
@@ -197,6 +178,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &8586730949453179405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824367227870697836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50d8d81d295a3ce47b0dc8bd22129748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionPrompt: {fileID: 0}
+  visualNovelUI: {fileID: 0}
+  visualNovelPlayer: {fileID: 0}
+  dialogueData: {fileID: 11400000, guid: 492186de476e5a3429907a559001433a, type: 2}
+  sequenceName: Introduction
+  giveWeaponOnEnd: 1
+  playerShoot: {fileID: 0}
 --- !u!1 &8831107006038527896
 GameObject:
   m_ObjectHideFlags: 0

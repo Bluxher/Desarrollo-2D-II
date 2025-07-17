@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c5ec4a3126e3c64a838abbf841ba510, type: 3}
+  m_Name: Mirko
+  m_EditorClassIdentifier: 
+  sequences:
+  - sequenceName: Introduction
+    lines:
+    - characterName: MIRKO
+      text: adasdasdasdasd
+      characterSprite: {fileID: -1327731046681205162, guid: 50499706d51cd5c4687c6343043aa574, type: 3}
+      musicClip: {fileID: 0}
+      animation: 1
+      screenPositionX: -1
+      screenPositionY: -0.40547785
+      scale: 0.967
+    - characterName: ALISSON
+      text: HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+      characterSprite: {fileID: 2363177969193796880, guid: a0d62e4b5e8237c4c865218a18b91d6b, type: 3}
+      musicClip: {fileID: 0}
+      animation: 0
+      screenPositionX: 0
+      screenPositionY: 0
+      scale: 1
+  - sequenceName: Nueva Secuencia
+    lines:
+    - characterName: 
+      text: 
+      characterSprite: {fileID: 0}
+      musicClip: {fileID: 0}
+      animation: 0
+      screenPositionX: 0
+      screenPositionY: 0
+      scale: 1
