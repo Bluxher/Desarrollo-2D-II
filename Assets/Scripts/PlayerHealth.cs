@@ -1,14 +1,13 @@
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Sprites de Vida")]
-    public Sprite[] vidaSprites; 
+    public Sprite[] vidaSprites;
 
     [Header("UI")]
-    public Image vidaImage;      
+    public UnityEngine.UI.Image vidaImage;
 
     [Header("Vida")]
     public int vidaMaxima = 6;
@@ -29,7 +28,7 @@ public class PlayerHealth : MonoBehaviour
         if (vidaActual <= 0)
         {
             Debug.Log("Jugador derrotado.");
-            ReiniciarEscena();
+            IrAlMenuPrincipal();
         }
     }
 
@@ -41,8 +40,8 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    public void ReiniciarEscena()
+    void IrAlMenuPrincipal()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene("MainMenu"); // Asegúrate de que MainMenu está en Build Settings
     }
 }

@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Nivel1.unity
     guid: 427fd54f37bdf92418a1023ac2da17a5
   - enabled: 1
-    path: Assets/Scenes/Mirko.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/Tuto.unity
+    guid: 70e547e7da8de9d448bf895dd4b01ced
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -15,16 +15,16 @@ MonoBehaviour:
   sequences:
   - sequenceName: Introduction
     lines:
-    - characterName: MIRKO
-      text: adasdasdasdasd
+    - characterName: Vamp
+      text: Querido Aventurero sea bienvenido a estas Tierras
       characterSprite: {fileID: -1327731046681205162, guid: 50499706d51cd5c4687c6343043aa574, type: 3}
       musicClip: {fileID: 0}
       animation: 1
       screenPositionX: -1
       screenPositionY: -0.40547785
       scale: 0.967
-    - characterName: ALISSON
-      text: HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    - characterName: Vamp
+      text: Usted ya sabe a lo que vino, asi que encarguese de los Slimes
       characterSprite: {fileID: 2363177969193796880, guid: a0d62e4b5e8237c4c865218a18b91d6b, type: 3}
       musicClip: {fileID: 0}
       animation: 0
